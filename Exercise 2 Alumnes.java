@@ -12,15 +12,4 @@ public class Alumnes extends Curs {
 		   this.id = id;
 		   this.name = name;
 	   }
-	   
-	   
-	   public int comptar() {
-		   int total=0;
-		   for (int i=0; i<id; i++) {
-		        total = i;
-		   }
-		return total;
-	   }
-
-
 }
