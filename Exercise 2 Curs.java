@@ -1,17 +1,13 @@
-package UML;
+import java.util.List;
 
 public class Curs {
-	
-	// Attributes
-	   private int numero;
-	   private String classes;
-
-	   // Constructor
-	   public Curs(int numero, String classes) {
-		   this.numero = numero;
-		   this.classes = classes;
-	   }
-	   
-
-
+    private List<Student> students;
+    
+    public Course(List<Student> students) {
+        this.students = students;
+    }
+    
+    public int countStudents() {
+        return students.size();
+    }
 }
