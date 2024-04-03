@@ -1,6 +1,6 @@
 package UML;
 
-public class Alumnes extends Curs {	
+public class Alumnes {	
 
 	// Attributes
 	   private int id;
